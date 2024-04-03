@@ -115,6 +115,7 @@ Then finally, make another directory named `sites-enabled` in the path, `/etc/ng
 
 So you should have these two directories before moving on:
 ![directories](image-11.png)
+
 ---
 ### Append the sites-enabled to the main nginx config file
 
