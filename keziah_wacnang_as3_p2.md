@@ -135,6 +135,9 @@ After the reboot, I check if the following services are running to make sure we 
 ### Testing
 I am going to be using Postman to do the testing.
 
+First lets make sure our home page is still working:
+![home-page](image-5.png)
+
 Test out the /hey:
 Open up Postman and open up a new tab. Then make sure it is a `GET` request, and have your arch droplet ip address in the send bar `<droplet-ip>/hey`: `http://137.184.177.187/hey` in my case.
 ![get/hey](image-3.png)
